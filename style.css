@@ -26,14 +26,14 @@
 }
 
 .heading .title {
-  font: 50px;
+  font-size: 30px;
   color: #fff;
   font-weight: 500;
   text-align: center;
 }
 
 .heading .sub-title {
-  font: 30px;
+  font-size: 20px;
   color: #fff;
   font-weight: 300;
   text-align: center;
@@ -95,4 +95,24 @@
   height: 100%;
   padding: 10px;
   cursor: pointer;
+}
+
+.task-box .add {
+  display: flex;
+  margin: 30px 0 10px 0;
+}
+
+.task-box input[type="text"] {
+  border-radius: 3px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.task-box input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #65c18c;
+  border-radius: 3px;
+  border: 0;
 }
