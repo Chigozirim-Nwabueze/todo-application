@@ -42,7 +42,7 @@
 .task-manager {
   min-width: 350px;
   max-width: 450px;
-  margin: 0 20px 0 20px;
+  margin: 0px auto;
 }
 
 .search-box,
