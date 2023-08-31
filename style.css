@@ -15,6 +15,10 @@
   list-style: none;
 }
 
+.hide {
+  display: none !important;
+}
+
 .wrapper {
   background-color: #888888;
   min-height: 100vh;
